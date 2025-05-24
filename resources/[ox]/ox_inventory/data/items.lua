@@ -5284,4 +5284,46 @@ return {
 		stack = true
 	},
 
+    ['joint_relief_pills'] = {
+    label = 'Joint Relief Pills',
+    weight = 1,
+    stack = true,
+    close = true,
+    description = 'Relieves joint stiffness and improves mobility temporarily.',
+    client = {
+        export = 'ag-aging.useJointRelief'
+    }
+},
+['back_pain_cream'] = {
+    label = 'Back Pain Cream',
+    weight = 1,
+    stack = true,
+    close = true,
+    description = 'Reduces lower back pain temporarily.',
+    client = {
+        export = 'ag-aging.useBackCream'
+    }
+},
+['energy_vitamins'] = {
+    label = 'Energy Vitamins',
+    weight = 1,
+    stack = true,
+    close = true,
+    description = 'Boosts stamina for a short time.',
+    client = {
+        export = 'ag-aging.useVitamins'
+    }
+},
+['pain_injection'] = {
+    label = 'Pain Injection',
+    weight = 1,
+    stack = true,
+    close = true,
+    description = 'Suppresses all negative physical effects.',
+    client = {
+        export = 'ag-aging.usePainInjection'
+    }
+}
+
+
 }
