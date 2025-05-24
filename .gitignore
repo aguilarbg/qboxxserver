@@ -1,9 +1,2 @@
-.[stream]/
-[stream]/
-.cache/
-*.rpf
-*.ytd
-*.ydr
-*.ogg
-*.dll
-*.exe
+cache/
+resources/[stream]/
